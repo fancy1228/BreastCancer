@@ -2,12 +2,15 @@
 Genetic analyses for Ashkenazi Jewish (AJ)
 
 ## Subjects
-### 639 AJ breast cancer cases
-phenotypes are stored at /share/data/BreastCancer/
+### 639 familial AJ breast cancer cases
+phenotypes are stored at /share/data/BreastCancer/doc
 
 the cases did not have BRCA1/2 mutations
 
 265 cases are index probands
+
+### 349 singleton AJ breast cancer cases
+phenotypes are stored at (ld1) /home/local/users/jw/Genetics_Projects/FBC/src
 
 ### 300 AJ controls from PCGC
 biocluster: /share/shannon/xz2680/Projects/CHD/final
@@ -42,7 +45,7 @@ PCGC are sequenced in multiple batches using different capture kit
 
 SPARK library was prepared using xGen regions
 
-Jake combined lifted hg19 to hg38 and combined all cases and controls using xGen
+Jake combined lift-over hg38 from hg19 and combined all cases and controls using xGen
 
 case bams: /share/descartes/jake.proc/hg38.reproc/aj.breast.cancer/data/proc/crams
 
@@ -56,6 +59,6 @@ xGen capture kit: /share/data/resources/hg38/CaptureKits/xgen_plus_spikein.b38.b
 /share/terra/xf2193/BreastCancer/SPARK/script/batch.sh
 
 ### Quality control - GATK
-deepvariants (*notused*) pipeline at shannon: /home/xf2193/Script/Pipeline
+deepvariants (not used because the AJ cases are too old) pipeline at shannon: /home/xf2193/Script/Pipeline
 
 QCed data was stored: /share/terra/xf2193/BreastCancer/SPARK/QC
